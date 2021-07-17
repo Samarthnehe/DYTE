@@ -1,0 +1,55 @@
+.code{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height:calc(100vh - 70px);
+    background-color: rgb(36, 36, 36);
+}
+.code .options{
+    border-right: 1px solid grey;
+    height: 100%;
+    flex:1.5
+
+}
+.code .editor{
+    border-right: 1px solid grey;
+    height: 100%;
+    flex:3
+}
+.code .view{
+
+    height: 100%;
+    flex: 3;
+}
+.options .options__header, .view .view__header,.editor .editor__header{
+    padding: 10px;
+    background-color: rgb(10,10,10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.files{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #c3c1c1;
+    
+}
+.files .filename{
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.editor .coding{
+    background-color: rgb(78, 78, 78);
+    color: #c3c1c1;
+    height: 300px;
+}
+.view .view__code{
+    height: calc(100% - 39px);
+    background-color: white;
+}
+.coding .coding__type{
+    box-sizing: content-box;
+    overflow-y: scroll;
+}

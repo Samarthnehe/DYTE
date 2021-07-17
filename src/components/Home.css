@@ -1,0 +1,15 @@
+.home{
+    background-color: rgb(10,10,10);
+    min-height: 100vh;
+    width: 100%;
+    color: #F1F1F1;
+}
+.home .home__navbar{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+
+}
